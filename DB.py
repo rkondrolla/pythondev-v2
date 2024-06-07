@@ -3,7 +3,7 @@ import os
 
 # Define the correct database connection string
 
-db_connection_string = os.environ[" DB_CONNECTION_STRI"]
+db_connection_string = "mysql+pymysql://admin:Mustang123@database-1.cdqw6m6qe49l.us-east-2.rds.amazonaws.com/UNMSHUTTLE?charset=utf8mb4"
 
 
 # Create an engine with SSL connection
